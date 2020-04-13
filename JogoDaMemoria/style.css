@@ -1,5 +1,5 @@
 .item-card {
-  position: absolute;
+  position: absolute !important !important;
   height:auto;
 }
 .base-image {
