@@ -20,9 +20,7 @@ div.item-card {
 	background-size: 150px 150px;
 }
 
-.flip-card-inner {
-  transform: rotateY(180deg);
-}
+
 .flip-card-inner {
   position: relative;
   width: 150px;
