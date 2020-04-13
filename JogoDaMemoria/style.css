@@ -34,9 +34,6 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card-inner:hover .card-back {
-  transforme: rotateY(180deg);
-}
 .card-front, .card-back {
   position: absolute;
   width: 100%;
@@ -46,7 +43,7 @@
 }
 
 .flip-card-inner:hover {
-   rotateY(180deg);
+     transforme: rotateY(180deg);
 }
 
 .bulbasaur-bg {
