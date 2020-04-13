@@ -36,31 +36,30 @@
   backface-visibility: hidden;
 }
 
-.card-front>img:hover {
+.card-front:hover {
    rotateY(180deg);
 }
 
 .bulbasaur-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png");
 }
 .eevee-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/eevee.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/eevee.png");
 }
 .pikachu-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/pikachu.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/pikachu.png");
 }
 .ponyta-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/ponyta.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/ponyta.png");
 }
 .snorlax-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/snorlax.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/snorlax.png");
 }
 .zubat-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/zubat.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/zubat.png");
 }
-
 .padrao-bg {
-	background-image: url"/aulasjs/JogoDaMemoria/arquivos/padrao.png";
+	background-image: url("/aulasjs/JogoDaMemoria/arquivos/padrao.png");
 }
 
 
