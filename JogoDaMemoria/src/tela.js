@@ -24,11 +24,9 @@ class Tela {
         return `
         <div class="col-md-3 card-container">
           <div class="flip-card-inner">
-            <div class="item-card card-back">
-              <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/${item.nome}.png" name="${item.nome}" alt="..." />
+            <div class="item-card card-back ${item.nome}-bg">
             </div>
             <div class="item-card card-front">
-              <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/padrao.png" name="${item.nome}" alt="..." />
             </div>
           </div>
         </div>
