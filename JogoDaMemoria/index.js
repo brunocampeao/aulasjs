@@ -4,7 +4,7 @@ function onLoad() {
         util: Util
     }
     // inicializa mos o jogo da memoria
-    const jogoDaMemoria = new JogoDaMemoria(dependencias)
+    window.jogoDaMemoria = new JogoDaMemoria(dependencias)
     jogoDaMemoria.inicializar()
 }
 window.onload = onLoad
