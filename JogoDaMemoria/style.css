@@ -1,7 +1,12 @@
-div.col-md-3>div.item-card {
-  position: absolute;
+.card-container {
   width:150px;
   height:150px;
+  display:block;
+
+}
+
+div.col-md-3>div.item-card {
+  position: absolute;
 
 }
 .base-image {
