@@ -40,7 +40,9 @@ div.item-card {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
+.card-back {
+  transform: rotateY(180deg);
+}
 
 
 .bulbasaur-bg {
