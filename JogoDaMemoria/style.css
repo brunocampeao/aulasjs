@@ -42,7 +42,7 @@
   backface-visibility: hidden;
 }
 
-.flip-card-inner:hover {
+.rotate-card {
      transform: rotateY(180deg);
 }
 
