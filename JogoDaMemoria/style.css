@@ -18,7 +18,9 @@
 
 
 .base-bg {
-	background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 150px 150px;
 }
 
 
