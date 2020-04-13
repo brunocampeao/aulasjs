@@ -47,24 +47,31 @@
 }
 
 .bulbasaur-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png");
 }
 .eevee-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/eevee.png");
 }
 .pikachu-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/pikachu.png");
 }
 .ponyta-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/ponyta.png");
 }
 .snorlax-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/snorlax.png");
 }
 .zubat-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/zubat.png");
 }
 .padrao-bg {
+	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/padrao.png");
 }
 
