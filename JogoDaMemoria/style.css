@@ -6,6 +6,10 @@
 
 }
 
+.item-card {
+	width:150px;
+	height:150px;
+}
 
 .base-image {
 	width:150px;
