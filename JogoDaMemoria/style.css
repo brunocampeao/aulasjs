@@ -41,7 +41,7 @@
   backface-visibility: hidden;
 }
 
-..flip-card-inner:hover {
+.flip-card-inner:hover {
    rotateY(180deg);
 }
 
