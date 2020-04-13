@@ -1,0 +1,44 @@
+base-bg {
+	background-size: 150px 150px;
+}
+
+.flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.card-front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+bulbasaur-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png";
+}
+eevee-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/eevee.png";
+}
+pikachu-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/pikachu.png";
+}
+ponyta-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/ponyta.png";
+}
+snorlax-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/snorlax.png";
+}
+zubat-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/zubat.png";
+}
+
+padrao-bg {
+	background-image: url"/aulasjs/JogoDaMemoria/arquivos/padrao.png";
+}
+
+
+
