@@ -23,10 +23,12 @@ class Tela {
     static obterCodigoHtml(item) {
         return `
         <div class="col-md-3">
-            <div class="card" style="width: 50%;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
-                <img src="${item.img}" name="${item.nome}" class="card-img-top" alt="...">
-                </div>
-                <br />
+          <div class="card card-front" style="width: 50%;">
+            <img src="/aulasjs/JogoDaMemoria/arquivos/padrao.png" name="${item.nome}" alt="..." />
+          </div>
+          <div class="card card-back" style="width: 50%;">
+            <img src="/aulasjs/JogoDaMemoria/arquivos/${item.img}.png" name="${item.nome}" alt="..." />
+           </div>
         </div>
         `
     }
