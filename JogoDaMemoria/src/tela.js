@@ -26,7 +26,7 @@ class Tela {
           <div class="flip-card-inner">
             <div class="item-card card-back ${item.nome}-bg">
             </div>
-            <div class="item-card card-front">
+            <div class="item-card card-front padrao-bg">
             </div>
           </div>
         </div>
