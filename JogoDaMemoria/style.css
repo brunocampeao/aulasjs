@@ -36,7 +36,9 @@
   backface-visibility: hidden;
 }
 
-
+.card-front>img:hover {
+   rotateY(180deg);
+}
 
 .bulbasaur-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png";
