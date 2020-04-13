@@ -27,7 +27,7 @@ class Tela {
             <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/padrao.png" name="${item.nome}" alt="..." />
           </div>
           <div class="card item-card card-back" style="width: 50%;">
-            <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/${item.img}.png" name="${item.nome}" alt="..." />
+            <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/${item.nome}.png" name="${item.nome}" alt="..." />
            </div>
         </div>
         `
