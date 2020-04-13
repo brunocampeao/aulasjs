@@ -40,7 +40,7 @@ div.item-card {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.card-back {
+.card-front {
   transform: rotateY(180deg);
 }
 
