@@ -71,7 +71,6 @@
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/zubat.png");
 }
 .padrao-bg {
-	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/padrao.png");
 }
 
