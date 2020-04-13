@@ -23,11 +23,13 @@ class Tela {
     static obterCodigoHtml(item) {
         return `
         <div class="col-md-3 card-container">
-          <div class="item-card card-back">
-            <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/${item.nome}.png" name="${item.nome}" alt="..." />
-           </div>
-          <div class="item-card card-front">
-            <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/padrao.png" name="${item.nome}" alt="..." />
+          <div class="flip-card-inner">
+            <div class="item-card card-back">
+              <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/${item.nome}.png" name="${item.nome}" alt="..." />
+            </div>
+            <div class="item-card card-front">
+              <img class="base-image" src="/aulasjs/JogoDaMemoria/arquivos/padrao.png" name="${item.nome}" alt="..." />
+            </div>
           </div>
         </div>
         `
