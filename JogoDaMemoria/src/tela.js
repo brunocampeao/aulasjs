@@ -24,9 +24,9 @@ class Tela {
         return `
         <div class="col-md-3 card-container">
           <div class="flip-card-inner">
-            <div class="item-card card-back ${item.nome}-bg">
+            <div class="item-card card-back base-bg ${item.nome}-bg">
             </div>
-            <div class="item-card card-front padrao-bg">
+            <div class="item-card card-front base-bg padrao-bg">
             </div>
           </div>
         </div>
