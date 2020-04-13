@@ -1,11 +1,11 @@
 
-base-image {
+.base-image {
 	width:150px;
 	heigt:150px;
 }
 
 
-base-bg {
+.base-bg {
 	background-size: 150px 150px;
 }
 
@@ -24,26 +24,26 @@ base-bg {
 
 
 
-bulbasaur-bg {
+.bulbasaur-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png";
 }
-eevee-bg {
+.eevee-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/eevee.png";
 }
-pikachu-bg {
+.pikachu-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/pikachu.png";
 }
-ponyta-bg {
+.ponyta-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/ponyta.png";
 }
-snorlax-bg {
+.snorlax-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/snorlax.png";
 }
-zubat-bg {
+.zubat-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/zubat.png";
 }
 
-padrao-bg {
+.padrao-bg {
 	background-image: url"/aulasjs/JogoDaMemoria/arquivos/padrao.png";
 }
 
