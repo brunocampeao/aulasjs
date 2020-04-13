@@ -33,7 +33,6 @@
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
 .card-front, .card-back {
   position: absolute;
   width: 100%;
@@ -42,7 +41,7 @@
   backface-visibility: hidden;
 }
 
-.card-front:hover {
+..flip-card-inner:hover {
    rotateY(180deg);
 }
 
