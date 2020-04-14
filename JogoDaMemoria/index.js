@@ -50,31 +50,8 @@ function onLoad() {
     // inicializa mos o jogo da memoria
     window.jogoDaMemoria = new JogoDaMemoria(dependencias)
     jogoDaMemoria.inicializar();
-    var observer = new MutationObserver(function(mutations) {
-  mutations.forEach(function(mutation) {
-	  console.log(mutation);
-    if (mutation.type == "attributes") {
-      console.log("attributes changed")
-    }
-  });
-});
 	
 	
-	observer.observe(document.getElementById("conteudo"), {
-  childList: true,
-attributes: true,
-characterData: true,
-subtree: true,
-attributeOldValue: true,
-characterDataOldValue: true,
-attributeFilter: true
-});
-	
-	
-      document.getElementById("conteudo").addEventListener("DOMContentLoaded", function(event) {
-        console.log("DOM completamente carregado e analisado");
-        setup();
-      });
     
 }
 window.onload = onLoad
