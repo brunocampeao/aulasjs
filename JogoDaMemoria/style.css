@@ -46,6 +46,11 @@
      transform: rotateY(180deg);
 }
 
+.fix-card {
+     transform: rotateY(180deg);
+}
+
+
 .bulbasaur-bg {
 	transform: rotateY(180deg);
 	background-image: url("/aulasjs/JogoDaMemoria/arquivos/bulbasaur.png");
