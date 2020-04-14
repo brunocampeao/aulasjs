@@ -61,7 +61,13 @@ function onLoad() {
 	
 	
 	observer.observe(document.getElementById("conteudo"), {
-  attributes: true //configure it to listen to attribute changes
+  childList: true,
+attributes: true,
+characterData: true,
+subtree: true,
+attributeOldValue: true,
+characterDataOldValue: true,
+attributeFilter: true
 });
 	
 	
