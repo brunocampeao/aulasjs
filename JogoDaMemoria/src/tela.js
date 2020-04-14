@@ -113,7 +113,12 @@ class Tela {
             document.getElementById(ID_CONTADOR).innerHTML = ""
         }
         static configurarBotaoMostrarTudo(funcaoOnClick) {
-            const btnMostrarTudo = document.getElementById(ID_BTN_MOSTRAR_TUDO)
-            btnMostrarTudo.onclick = funcaoOnClick
+            var showAllBack = function() {
+              var offCards = document.querySelectorAll("div.flip-card-inner:not(.rotate-card):not(.fix-card)");
+              offCards.forEach(item => item.classList.add("rotate-card"));
+              window.setTimeout(() => { offCards.forEach(item => item.classList.remove("rotate-card")); }, 900);
+            }
+            const btnMostrarTudo = document.getElementById(ID_BTN_MOSTRAR_TUDO);
+            btnMostrarTudo.onclick = showAllBack;
         }
 }
