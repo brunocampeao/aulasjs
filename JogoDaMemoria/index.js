@@ -50,7 +50,19 @@ function onLoad() {
     // inicializa mos o jogo da memoria
     window.jogoDaMemoria = new JogoDaMemoria(dependencias)
     jogoDaMemoria.inicializar();
+
 	
+    var observer = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+	  console.log(mutation);
+    if (mutation.type == "childList") {
+	  setup();
+      console.log("attributes changed")
+    }
+  });
+});
+var config = {childList: true};	
+observer.observe(document.getElementById("conteudo"), config);
 	
     
 }
